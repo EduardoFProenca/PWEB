@@ -1,0 +1,125 @@
+body{
+     background: radial-gradient(circle at center, #1e293b 0%, #020617 100%);
+     margin: 10px;
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+     
+     
+}
+
+.container-box{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+     text-align: center;
+
+    grid-template-areas: 
+    'a b c c'
+    'a b c c'
+    'a e f f'
+    'a e f f'
+    'd d d d'
+    'd d d d';
+}
+
+h1{
+    font-size: 3.5em;
+    text-align: center;
+    color: #38bdf8;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3), 
+                 0 0 40px rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
+    letter-spacing: 8px;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+
+h2,
+h3, h4 {
+    color: #38bdf8;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+     font-size: 1.5em
+
+
+}
+
+h5{
+    color: #38bdf8;
+    text-align:left;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1.01em;
+    line-height: 2;
+    text-align: justify;
+    margin: 20px;
+    padding: 0px;
+    color:  #939ba5;
+	transition: 0.5s linear;
+
+}
+
+	p:hover {
+		color: white;
+	}
+
+
+
+.box{
+    background-color:#1e293b;
+    border-radius: 5px;
+}
+
+.a{
+    grid-area: a;
+    text-align: center;
+}
+
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+
+
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+.f{
+    grid-area: f;
+
+}
+
+img{
+     border-radius: 5px;
+
+    width: 500px;
+    margin: 0 auto 40px auto;
+}
+
+#img-pantheon{
+    width: 100px;
+
+}
+
+#img-for-all-mankind{
+   width: 250px; 
+}
+
+
+
