@@ -1,0 +1,88 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+ body{
+    background-color:black;
+ }
+ div{
+    width: 500px;
+    height: 500px;
+    text-align:center;
+    background-color: darkgray;
+    margin-top: 10%;
+
+
+ }
+
+h2::before{
+    
+    content: "Cinza"
+}
+
+@media (min-width:420px) {
+
+    div{
+         background-color:chocolate;
+
+    }
+
+    h2::before{
+         content: "Naranja"
+    }
+
+}
+@media (min-width:768px) {
+
+    h2::before{
+        content: "Rosa";
+    }
+    div{
+        background-color:deeppink;       
+    }
+
+}
+@media (min-width:1080px) {
+
+    h2::before{
+         content: "Vermelho";
+    }
+    div{
+         background-color:brown;
+    }
+
+}
+@media (min-width:1366px) {
+
+
+    div{
+         background-color:blueviolet;
+    }
+    h2::before{
+         content: "Roso";
+    }
+
+}
+
+@media (min-width:1920px) {
+
+    h2::before{
+         content: "Amarelo";
+    }
+    div{
+        background-color:gold;
+    }
+
+}
+
+@media (min-width:1921px) {
+
+    h2::before{
+        content: "Verde";
+    }
+
+    div{
+        background-color:green;
+    }
+
+}
+
