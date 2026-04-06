@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <script src="Media.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <br>
+        <form id="NomeReb">
+            <label for="Nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </form>
+        <br><br>
+        <div>
+            <form>
+                <label for="At1"> Atividade 1 :</label>
+                <input type="number" id="At1" step="0.1" placeholder="Digite nota do atividade 1" required>
+            </form>
+            <br>
+            <form>
+                <label for="At2"> Atividade 2 :</label>
+                <input type="number" id="At2" step="0.1" placeholder="Digite nota do atividade 2" required>
+            </form>
+            <br>
+            <form>
+                <label for="At3"> Atividade 3 :</label>
+                <input type="number" id="At3" step="0.1" placeholder="Digite nota do atividade 3" required>
+            </form>
+            <br>
+            <form>
+                <label for="At4"> Atividade 4 :</label>
+                <input type="number" id="At4" step="0.1" placeholder="Digite nota do atividade 4" required>
+            </form>
+        </div>
+        <br>
+        <label>Média aritmética:</label>
+        <label id="media"></label>
+        <label id="ResNome"> </label>
+        <br>
+        <button onclick="capturarNota()">Calcular</button>
+    </div>
+</body>
+
+</html>

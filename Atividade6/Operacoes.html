@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operacoes</title>
+    <script src="Operacoes.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <br>
+        <div>
+            <form>
+                <label for="texNum1"> Numeros 1:</label>
+                <input type="number" id="number1" step="0.1" placeholder="Digite o number " required>
+            </form>
+            <br>
+            <form>
+                <label for="texNum2"> Numeros 2:</label>
+                <input type="number" id="number2" step="0.1" placeholder="Digite o number " required>
+            </form>
+            <br>
+        </div>
+        <br>
+        <div class="res">
+            <p id="soma"> </p>
+            <p id="subtracao"> </p>
+            <p id="produto"></p>
+            <p id="divisao"></p>
+            <p id="resto"></p>
+        </div>
+        <br>
+        <button onclick="capturarNota()">Calcular</button>
+    </div>
+</body>
+
+</html>
