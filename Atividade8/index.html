@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Atividade8.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="card">
+
+            <h1>Pesquisa do lançamento do filme</h1>
+            <div>
+            <form id="meu-formulario">
+                <label>Idade: </label>
+                <input type="number" id="anos" name="idade" placeholder="Digite sua idade" required>
+                <br><br>
+
+                <div class="container-flex">
+                    <div class="card">
+                        <p>Sexo</p>
+                        <input type="radio" id="sexFeminino" name="sexo" value="1" required>
+                        <label for="sexFeminino">Feminino</label><br>
+                        <input type="radio" id="sexMasculino" name="sexo" value="2" required>
+                        <label for="sexMasculino">Masculino</label><br>
+                        <input type="radio" id="sexOutros" name="sexo" value="0" required>
+                        <label for="sexOutros">Outros</label>
+                    </div>
+
+                    <div class="card">
+                        <p>Opinião</p>
+                        <input type="radio" id="onOtimo" name="opiniao" value="4" required>
+                        <label for="onOtimo">Ótimo</label><br>
+                        <input type="radio" id="onBom" name="opiniao" value="3" required>
+                        <label for="onBom">Bom</label><br>
+                        <input type="radio" id="onRegular" name="opiniao" value="2" required>
+                        <label for="onRegular">Regular</label><br>
+                        <input type="radio" id="onPessimo" name="opiniao" value="1" required>
+                        <label for="onPessimo">Péssimo</label>
+                    </div>
+                </div>
+            </form>
+            <button onclick="envPesquisa()" class="btn">Enviar </button>
+        </div>
+        <br>
+        <div>
+
+        </div>
+
+
+    </div>
+    <div>
+        <h1>Resultado dos questionário</h1>
+        <br>
+        <div class="res">
+            <p id="mediaIdade"> </p>
+            <p id="maisVelha"> </p>
+            <p id="maisNova"></p>
+            <p id="quantidadePessimo"></p>
+            <p id="porcentagemOtimoBom"></p>
+            <p id="numSexo"></p>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
