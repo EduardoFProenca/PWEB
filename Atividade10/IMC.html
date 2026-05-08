@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="Atividade10.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <br>
+       
+        <div>
+            <form>
+                <label for="labAltura">Altura :</label>
+                <input type="number" id="entAltura" step="0.1" placeholder="Digite sua Altura" required>
+            </form>
+            <br>
+            <form>
+                <label for="labPeso"> Peso Atual :</label>
+                <input type="number" id="entPeso" step="0.1" placeholder="Digite o peso" required>
+            </form>
+            <br>
+        </div>
+        <br>
+        <label id="textIMC"> </label>
+        <label id="ResIMC"> </label>
+        <br>
+        <button onclick="calcIMC()">Calcular</button>
+    </div>
+</body>
+
+</html>
